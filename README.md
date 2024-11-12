@@ -166,7 +166,7 @@ t-Distributed Stochastic Neighbor Embedding (t-SNE) is used for visualizing high
 
 * Gained a brief knowledge about semi-super vised learning from the research paper .
 
-**DAY-15  |  28-10-2024  :**
+## **DAY-15  |  28-10-2024  :**
 
 * Learnt about Consistency Reguralization , Entropy Minimization in semi super vised learning.
 
