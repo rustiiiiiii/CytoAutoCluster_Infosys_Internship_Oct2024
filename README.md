@@ -45,7 +45,7 @@ Ensure that the developed algorithm is scalable and efficient, capable of handli
 
 
 
-## **DAY-1  |  07-10-2024  :**    
+## **DAY-1  |  07-10-2024  : **    
 
 * Referred and Downloaded a valid semi-supervised cytometry mass data set from resources like kaggle,google scholar,paperswithcode.
 
