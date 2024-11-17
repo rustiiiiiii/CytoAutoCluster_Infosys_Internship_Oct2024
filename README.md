@@ -49,7 +49,7 @@ Ensure that the developed algorithm is scalable and efficient, capable of handli
 
 * Referred and Downloaded a valid semi-supervised cytometry mass data set from resources like kaggle,google scholar,paperswithcode.
 
-## **DAY-2  |  08-10-2024  :**
+## **DAY-2  |  08-10-2024  : **
 
 * My data set got rejected because it contains complete labelled data as we need some I showcased my downloaded data set to the mentor and took my inputs.
 * Calculated percentage of unlabelled data to perform semi supervised learning.
