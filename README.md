@@ -13,13 +13,13 @@ CytoAutoCluster aims to integrate semi-supervised learning approaches within cyt
 
 Cytometry generates vast amounts of high-dimensional data, often leading to challenges in the interpretation and classification of cell populations. Traditional clustering methods, such as k-means or hierarchical clustering, may struggle with the complexity and variability of cytometric data. Key challenges include:
 
-### **1.High Dimensionality**: 
+### **1.High Dimensionality** : 
 Cytometric data often consists of multiple parameters, making it difficult to visualize and analyze using conventional methods.
 
-### **2.Label Scarcity**: 
+### **2.Label Scarcity** : 
 High-quality labeled datasets are crucial for supervised learning but are often scarce in biological research, limiting the effectiveness of traditional machine learning approaches.
 
-### **3.Noise and Variability**: 
+### **3.Noise and Variability** : 
 Cytometric data can be noisy and exhibit significant variability due to biological differences, which can adversely affect clustering performance.
 
 
@@ -28,26 +28,26 @@ Cytometric data can be noisy and exhibit significant variability due to biologic
 
 The primary objectives of CytoAutoCluster are as follows:
 
-### **1.Develop a Semi-Supervised Learning Framework**:
+### **1.Develop a Semi-Supervised Learning Framework** :
 Create an algorithm that can effectively utilize both labeled and unlabeled data to enhance clustering performance in cytometric analyses.
 
-### **2.Improve Clustering Accuracy**:
+### **2.Improve Clustering Accuracy** :
 Implement deep learning techniques to achieve higher accuracy in classifying complex cell populations compared to traditional methods.
 
-### **3.Reduce Labeling Requirements**: 
+### **3.Reduce Labeling Requirements** : 
 Minimize the need for extensive labeled datasets by leveraging unlabeled data, thereby reducing the time and resources required for data preparation.
 
-### **4.Enhance Interpretability**:
+### **4.Enhance Interpretability** :
 Provide tools and visualizations that help researchers understand the clustering results and the underlying biological significance of identified cell populations.
 
-### **5.Scalability and Efficiency**: 
+### **5.Scalability and Efficiency** : 
 Ensure that the developed algorithm is scalable and efficient, capable of handling large datasets commonly encountered in cytometry.
 
 
 
 ## **DAY-1  |  07-10-2024  :**    
 
-* Referred and Downloaded a valid semi-supervised cytometry mass data set from resources like kaggle,google scholar,paperswithcode.
+* Referred and Downloaded a valid semi-supervised cytometry mass data set from resources like `kaggle` , `Google scholar` , `paperswithcode`.
 
 ## **DAY-2  |  08-10-2024  :**
 
@@ -59,17 +59,17 @@ Ensure that the developed algorithm is scalable and efficient, capable of handli
 
 * Gained a brief knowledge on the components of the cytometry in the data set with an sample data set ( Levine_32dim_notransform.csv ).
 * Learned about some basic GIT commands to use in the repository of the github.
-* Bagged the idea of how the code in collabed repository is used by the multiple users ( push ,merge and commit ).
+* Bagged the idea of how the code in collabed repository is used by the multiple users ( `push` , `merge` and `commit` ).
 
 ## **DAY-4  |  10-10-2024  :**
 
 * Finalized the data set i.e., Levine_32dim_notransform.csv
-* Created Python Environment and uploaded the data set , created a dataframe.
+* Created Python Environment and `uploaded the data set` , `created a dataframe`.
 
 ## **DAY-5  |  11-10-2024  :**
 
-* Removed Unnecessary columns (Cell_length,file_number, event_number) from the data set.
-* Performed EDA Techniques (Info,Histogram,Label and Unlabel percentage,non-null values in each column ) and took inputs from the mentor.
+* Removed Unnecessary columns (`Cell_length` , `file_number` , `event_number` ) from the data set.
+* Performed EDA Techniques ( `Info` , `Histogram` , `Label and Unlabel percentage` , `non-null values in each column` ) and took inputs from the mentor.
 
 ## **HISTOGRAM** 
 
@@ -78,7 +78,7 @@ A histogram is a type of bar chart that represents the frequency distribution of
 
 ## **DAY-6  |  14-10-2024  :**
 
-* Performed EDA Techniques (Range of each feature , Correlation matrix, Class Label Distribution ,Box Plot ) and took inputs from mentor.
+* Performed EDA Techniques ( `Range of each feature` , `Correlation matrix` , `Class Label Distribution` , `Box Plot` ) and took inputs from mentor.
 
 ## **BOXPLOT**
 
@@ -90,7 +90,7 @@ A correlation matrix is a table displaying the correlation coefficients between 
 
 ## **DAY-7  |  15-10-2024  :**
 
-* Performed EDA Techniques (Kurtosis, Skewness , pair plot)  and took inputs from my mentor. 
+* Performed EDA Techniques ( `Kurtosis` , `Skewness` , `pair plot` )  and took inputs from my mentor. 
 
 ## **KURTOSIS**    
 Kurtosis measures the "tailedness" of a probability distribution, indicating how much data is in the tails compared to a normal distribution. There are three types of kurtosis:
@@ -192,31 +192,31 @@ Binary mask is used to selectively focus on certain parts of the input data, all
 
 ## **DAY-17  |  30-10-2024  :**
 
-* Performed binary masking by randomly shuffling the column values into the data frame.
+* Performed `binary masking` by randomly shuffling the column values into the data frame.
 
 ## **CORRUPTION OF DATA :**
 
 Corrupted data refers to values that have been altered or distorted, either intentionally (for testing purposes) or unintentionally (due to errors in data collection, processing, or storage).
 
-* Performed the corruption of data by creating a new data frame called corrupted data frame and framed and equation x*(1-m) + x_shuffled*m = x_corrupted 
-I.e;  x is original data frame 
-       m is binary mass matrix 
-       x_shuffled is shuffled data frame .
+* Performed the corruption of data by creating a new data frame called corrupted data frame and framed and equation `x*(1-m) + x_shuffled*m = x_corrupted` 
+I.e;  `x is original data frame` 
+       `m is binary mass matrix`
+       `x_shuffled is shuffled data frame` .
 
 ## **DAY-18  |  01-11-2024  :**
 
-* Performed Binary Masking on our data set 
+* Performed Binary Masking on our data set .
 * Created an corrupted data frame such that the binary mass matrix when represents 1 indicates that the value in that index is corrupted and vice versa to the 0.
-* Created 4 variables named x_labeled, y_labeled ,x_unlabeled and  y_unlabeled to split the data in the data set into catogeries.
+* Created 4 variables named `x_labeled` , `y_labeled` , `x_unlabeled` and  `y_unlabeled` to split the data in the data set into catogeries.
 x_labeled represents the rows of columns that have values except the target 
 column(label).
-      X_unlabeled represents the rows having null values.
-      Y_labeled represents the rows of label that contains values.
-      Y_unlabeled represents the rows of label that have null values.
+      `X_unlabeled represents the rows having null values`.
+      `Y_labeled represents the rows of label that contains values`.
+      `Y_unlabeled represents the rows of label that have null values`.
 
 ## **DAY-19  |  04-11-2024  :**
 
-* Performed split method on x_label,y_label and y_unlabel such that size of train is 70% and size of test is 30%.
+* Performed split method on `x_label` , `y_label` and `y_unlabel` such that size of train is 70% and size of test is 30%.
 
 ## **TRAIN SPLIT**
 
@@ -224,7 +224,7 @@ Train-test splitting is a technique used  to divide a dataset into two subsets: 
 
 ## **DAY-20  |  05-11-2024  :**
 
-* Performed Logistic Regression and xgboost on train split data of our data set and also calculated the Log loss values .
+* Performed `Logistic Regression` and `xgboost` on train split data of our data set and also calculated the Log loss values .
 
 ## **LOGISTIC REGRESSION**
 
@@ -240,7 +240,7 @@ Log loss is used as the objective function to optimize during training, guiding 
 
 ## **DAY-21  |  06-11-2024  :**
 
-* Created an model under the guidance of mentor I.e; created an function called self_supervised with some relevant parameters and a part of code on it.
+* Created an model under the guidance of mentor I.e; created an function called `self_supervised` with some relevant parameters and a part of code on it.
 
 ## **DAY-22  |  07-11-2024  :**
 
@@ -249,7 +249,7 @@ Log loss is used as the objective function to optimize during training, guiding 
 
 ## **DAY-23  |  08-11-2024  :**
 
-* Performed encoder model.
+* Performed `encoder model`.
 
 ## **ENCODER**
 
