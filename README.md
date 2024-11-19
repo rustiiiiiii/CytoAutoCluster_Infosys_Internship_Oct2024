@@ -199,20 +199,19 @@ Binary mask is used to selectively focus on certain parts of the input data, all
 Corrupted data refers to values that have been altered or distorted, either intentionally (for testing purposes) or unintentionally (due to errors in data collection, processing, or storage).
 
 * Performed the corruption of data by creating a new data frame called corrupted data frame and framed and equation `x*(1-m) + x_shuffled*m = x_corrupted` 
-I.e;  `x is original data frame` ,  
-       `m is binary mass matrix` , 
-       `x_shuffled is shuffled data frame` .
+<br>I.e; `x is original data frame` ,<br>`m is binary mass matrix` , 
+       <br>`x_shuffled is shuffled data frame` .
 
 ## **DAY-18  |  01-11-2024  :**
 
 * Performed Binary Masking on our data set .
 * Created an corrupted data frame such that the binary mass matrix when represents 1 indicates that the value in that index is corrupted and vice versa to the 0.
 * Created 4 variables named `x_labeled` , `y_labeled` , `x_unlabeled` and  `y_unlabeled` to split the data in the data set into catogeries.
-`x_labeled represents the rows of columns that have values except the target 
+<br>`x_labeled represents the rows of columns that have values except the target 
 column(label)` , 
-      `X_unlabeled represents the rows having null values` , 
-      `Y_labeled represents the rows of label that contains values` , 
-      `Y_unlabeled represents the rows of label that have null values`.
+      <br>`X_unlabeled represents the rows having null values` , 
+      <br>`Y_labeled represents the rows of label that contains values` , 
+      <br>`Y_unlabeled represents the rows of label that have null values`.
 
 ## **DAY-19  |  04-11-2024  :**
 
@@ -267,24 +266,27 @@ Encoders in a dataset are techniques used to convert categorical variables into 
 
 * Started working on semi supervised learning model, created 3 functions model,train and semi_supervised.
   Where, `model(input_dimension,hidden_dimension,label_dimension,activation=tf.nn.relu)`
-           Here , `input_dimension represents the input layer` , 
-                     `hidden_dimension represents the number of  neurons` ,
-                     `label_dimension represents the output of x` , 
-                     `activation is a relu function` .
+           <br> Here , <br> `input_dimension represents the input layer` 
+ <br> `hidden_dimension represents the number of  neurons`
+                  <br>`label_dimension represents the output of x` 
+                  <br>`activation is a relu function` .
+
+  
 `train(feature_batch,label_batch,unlabeled_feature_batch,model,beta,supv_loss_fn,optimizer)`
-Here,  `feature_batch is used in getting outputs for labeled data` , 
-            `Label_batch is used in calculating supervised log function for labeled data` , 
-            `Unlabeled_feature_batch is used in getting outputs for unlabeled data` , 
-            `Beta is a hyperparameter i.e, we have to enter our own value for this` , 
-            `Supv_loss_fn is used in calculating supervised log function for labeled data` , 
-            `Optimizer is used in making the changes to the weights` .
+<br> Here, 
+           <br>`feature_batch is used in getting outputs for labeled data` ,
+            <br>`Label_batch is used in calculating supervised log function for labeled data` , 
+            <br>`Unlabeled_feature_batch is used in getting outputs for unlabeled data` , 
+            <br>`Beta is a hyperparameter i.e, we have to enter our own value for this` , 
+            <br>`Supv_loss_fn is used in calculating supervised log function for labeled data` , 
+            <br>`Optimizer is used in making the changes to the weights` .
 
 ## **DAY-27  |  14-11-2024  :**
 
 * Continued developing code on semi-supervised learning model.
 
 `semi_supervised(x_train,y_train , x_unlabaled, x_test, parameters, mask_probability, K , beta)`
-Here, `parameters is dictionary` .
+<br>Here, <br>`parameters is dictionary` .
 
 ## **DAY-28  |  15-11-2024  :**
 
