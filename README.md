@@ -261,4 +261,35 @@ Encoders in a dataset are techniques used to convert categorical variables into 
 
 ## **DAY-25 |  12-11-2024  :**
 
-* Discussed and Corrected the mistakes in encoder model and took my inputs from the mentor.
+* Discussed and Corrected the errors in encoder model and took my inputs from the mentor.
+
+## **DAY-26  |  13-11-2024  :**
+
+* Started working on semi supervised learning model, created 3 functions model,train and semi_supervised.
+  Where, `model(input_dimension,hidden_dimension,label_dimension,activation=tf.nn.relu)`
+           Here , `input_dimension represents the input layer` , 
+                     `hidden_dimension represents the number of  neurons` ,
+                     `label_dimension represents the output of x` , 
+                     `activation is a relu function` .
+`train(feature_batch,label_batch,unlabeled_feature_batch,model,beta,supv_loss_fn,optimizer)`
+Here,  `feature_batch is used in getting outputs for labeled data` , 
+            `Label_batch is used in calculating supervised log function for labeled data` , 
+            `Unlabeled_feature_batch is used in getting outputs for unlabeled data` , 
+            `Beta is a hyperparameter i.e, we have to enter our own value for this` , 
+            `Supv_loss_fn is used in calculating supervised log function for labeled data` , 
+            `Optimizer is used in making the changes to the weights` .
+
+## **DAY-27  |  14-11-2024  :**
+
+* Continued developing code on semi-supervised learning model.
+
+`semi_supervised(x_train,y_train , x_unlabaled, x_test, parameters, mask_probability, K , beta)`
+Here, `parameters is dictionary` .
+
+## **DAY-28  |  15-11-2024  :**
+
+* Completed developing code on semi_supervised function.
+
+## **DAY-29  |  19-11-2024  :**
+
+* Discussed and corrected the errors regarding the semi_supervised function and took inputs from the mentor.
