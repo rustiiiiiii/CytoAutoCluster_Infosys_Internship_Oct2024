@@ -13,13 +13,13 @@ CytoAutoCluster aims to integrate semi-supervised learning approaches within cyt
 
 Cytometry generates vast amounts of high-dimensional data, often leading to challenges in the interpretation and classification of cell populations. Traditional clustering methods, such as k-means or hierarchical clustering, may struggle with the complexity and variability of cytometric data. Key challenges include:
 
-### **1.High Dimensionality** : 
+### **1. High Dimensionality** : 
 Cytometric data often consists of multiple parameters, making it difficult to visualize and analyze using conventional methods.
 
-### **2.Label Scarcity** : 
+### **2. Label Scarcity** : 
 High-quality labeled datasets are crucial for supervised learning but are often scarce in biological research, limiting the effectiveness of traditional machine learning approaches.
 
-### **3.Noise and Variability** : 
+### **3. Noise and Variability** : 
 Cytometric data can be noisy and exhibit significant variability due to biological differences, which can adversely affect clustering performance.
 
 
@@ -28,19 +28,19 @@ Cytometric data can be noisy and exhibit significant variability due to biologic
 
 The primary objectives of CytoAutoCluster are as follows:
 
-### **1.Develop a Semi-Supervised Learning Framework** :
+### **1. Develop a Semi-Supervised Learning Framework** :
 Create an algorithm that can effectively utilize both labeled and unlabeled data to enhance clustering performance in cytometric analyses.
 
-### **2.Improve Clustering Accuracy** :
+### **2. Improve Clustering Accuracy** :
 Implement deep learning techniques to achieve higher accuracy in classifying complex cell populations compared to traditional methods.
 
-### **3.Reduce Labeling Requirements** : 
+### **3. Reduce Labeling Requirements** : 
 Minimize the need for extensive labeled datasets by leveraging unlabeled data, thereby reducing the time and resources required for data preparation.
 
-### **4.Enhance Interpretability** :
+### **4. Enhance Interpretability** :
 Provide tools and visualizations that help researchers understand the clustering results and the underlying biological significance of identified cell populations.
 
-### **5.Scalability and Efficiency** : 
+### **5. Scalability and Efficiency** : 
 Ensure that the developed algorithm is scalable and efficient, capable of handling large datasets commonly encountered in cytometry.
 
 
@@ -94,20 +94,20 @@ A correlation matrix is a table displaying the correlation coefficients between 
 
 ## **KURTOSIS**    
 Kurtosis measures the "tailedness" of a probability distribution, indicating how much data is in the tails compared to a normal distribution. There are three types of kurtosis:
-### **1.Mesokurtic:**
+### **1. Mesokurtic:**
 This is a normal distribution with kurtosis close to zero, indicating average tail presence, like the bell curve.
-### **2.Leptokurtic:** 
+### **2. Leptokurtic:** 
 Distributions with high kurtosis (>0) are leptokurtic. They have heavy tails, meaning more data falls in the tails, suggesting more outliers. This results in a sharp peak and flatter tails.
-### **3.Platykurtic:**
+### **3. Platykurtic:**
 Distributions with low kurtosis (<0) are platykurtic, with thin tails and fewer outliers. They have a flatter peak and less extreme values in the tails.
 
 High kurtosis implies data is prone to extreme values, while low kurtosis shows a more consistent, predictable dataset.
 
 ## **SKEWNESS** 
 Skewness measures the asymmetry of a probability distribution. A perfectly symmetrical distribution has zero skewness, but real-world data often leans to one side. There are two main types:
-### **1.Right Skewness (Positive Skew):**
+### **1. Right Skewness (Positive Skew):**
 Here, the tail on the right side of the distribution is longer, meaning the majority of data points lie on the left. It indicates that the mean is typically greater than the median, and it’s common in distributions with high outliers, like income data.                                                                                                                                                                           
-### **2.Left Skewness (Negative Skew):**
+### **2. Left Skewness (Negative Skew):**
 In left-skewed distributions, the tail on the left side is longer, with most data points on the right. Here, the mean is often less than the median, and it occurs in data with low outliers, such as age at retirement.
  
 ## **PAIRPLOT** 
@@ -199,8 +199,8 @@ Binary mask is used to selectively focus on certain parts of the input data, all
 Corrupted data refers to values that have been altered or distorted, either intentionally (for testing purposes) or unintentionally (due to errors in data collection, processing, or storage).
 
 * Performed the corruption of data by creating a new data frame called corrupted data frame and framed and equation `x*(1-m) + x_shuffled*m = x_corrupted` 
-I.e;  `x is original data frame` 
-       `m is binary mass matrix`
+I.e;  `x is original data frame` ,  
+       `m is binary mass matrix` , 
        `x_shuffled is shuffled data frame` .
 
 ## **DAY-18  |  01-11-2024  :**
@@ -208,10 +208,10 @@ I.e;  `x is original data frame`
 * Performed Binary Masking on our data set .
 * Created an corrupted data frame such that the binary mass matrix when represents 1 indicates that the value in that index is corrupted and vice versa to the 0.
 * Created 4 variables named `x_labeled` , `y_labeled` , `x_unlabeled` and  `y_unlabeled` to split the data in the data set into catogeries.
-x_labeled represents the rows of columns that have values except the target 
-column(label).
-      `X_unlabeled represents the rows having null values`.
-      `Y_labeled represents the rows of label that contains values`.
+`x_labeled represents the rows of columns that have values except the target 
+column(label)` , 
+      `X_unlabeled represents the rows having null values` , 
+      `Y_labeled represents the rows of label that contains values` , 
       `Y_unlabeled represents the rows of label that have null values`.
 
 ## **DAY-19  |  04-11-2024  :**
