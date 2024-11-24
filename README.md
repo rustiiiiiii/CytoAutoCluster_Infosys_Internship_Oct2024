@@ -160,9 +160,9 @@ Here’s the content rewritten in proper `README.md` format:
 
 For queries or collaborations, please reach out via:
 
-- **Email**: [aniruddh.joshi@example.com](mailto:aniruddh.joshi@example.com)
-- **LinkedIn**: [Aniruddh Joshi](https://linkedin.com/in/aniruddh-joshi)
-- **GitHub**: [github.com/AniruddhJoshi](https://github.com/AniruddhJoshi)
+- **Email**: [aniruddh.joshi2904@gmail.com](mailto:aniruddh.joshi2904@gmail.com)
+- **LinkedIn**: [Aniruddh Joshi](https://www.linkedin.com/in/aniruddhjoshi2904/)
+- **GitHub**: [github.com/AniruddhJoshi](https://github.com/aniruddh-joshi)
 
 ---
 
