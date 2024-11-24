@@ -180,5 +180,3 @@ For queries or collaborations, please reach out via:
 
 ### CytoAutoCluster: Bridging the gap between data scarcity and efficient deep clustering. 🌟
 ```
-
-This format is clean, readable, and Markdown-compliant for your project's `README.md`.
