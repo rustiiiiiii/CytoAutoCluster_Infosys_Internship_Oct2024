@@ -10,7 +10,6 @@ CytoAutoCluster aims to integrate semi-supervised learning approaches within cyt
 
 
 ## **PROBLEM OVERVIEW**  :
-
 Cytometry generates vast amounts of high-dimensional data, often leading to challenges in the interpretation and classification of cell populations. Traditional clustering methods, such as k-means or hierarchical clustering, may struggle with the complexity and variability of cytometric data. Key challenges include:
 
 ### **1. High Dimensionality** : 
@@ -43,7 +42,18 @@ Provide tools and visualizations that help researchers understand the clustering
 ### **5. Scalability and Efficiency** : 
 Ensure that the developed algorithm is scalable and efficient, capable of handling large datasets commonly encountered in cytometry.
 
+## Contents
 
+The files in this repository are:
+
+**1. CytoAutoCluster notebook :** Colab notebook containing the code performed to improvise data by performing semi_supervised learning.
+
+**2. Project Documentation :** The progress of work performed in duration of internship .
+
+**3. Data set :** The relevant data set used to perform methods and techniques in the entire project.
+
+**4. License :** The MIT license to provide access to all.
+    
 > ## EDA TECHNIQUES :
 ### 1.**HISTOGRAM** 
 
@@ -60,20 +70,20 @@ A correlation matrix is a table displaying the correlation coefficients between 
 ### 4.**KURTOSIS**   
 
 Kurtosis measures the "tailedness" of a probability distribution, indicating how much data is in the tails compared to a normal distribution. There are three types of kurtosis:
-#### **1. Mesokurtic:**
+#### **- Mesokurtic:**
 This is a normal distribution with kurtosis close to zero, indicating average tail presence, like the bell curve.
-#### **2. Leptokurtic:** 
+#### **- Leptokurtic:** 
 Distributions with high kurtosis (>0) are leptokurtic. They have heavy tails, meaning more data falls in the tails, suggesting more outliers. This results in a sharp peak and flatter tails.
-#### **3. Platykurtic:**
+#### **- Platykurtic:**
 Distributions with low kurtosis (<0) are platykurtic, with thin tails and fewer outliers. They have a flatter peak and less extreme values in the tails.
 
 High kurtosis implies data is prone to extreme values, while low kurtosis shows a more consistent, predictable dataset.
 
 ### 5.**SKEWNESS** 
 Skewness measures the asymmetry of a probability distribution. A perfectly symmetrical distribution has zero skewness, but real-world data often leans to one side. There are two main types:
-#### **1. Right Skewness (Positive Skew):**
+#### **- Right Skewness (Positive Skew):**
 Here, the tail on the right side of the distribution is longer, meaning the majority of data points lie on the left. It indicates that the mean is typically greater than the median, and it’s common in distributions with high outliers, like income data.                                                                                                                                                                           
-#### **2. Left Skewness (Negative Skew):**
+#### **- Left Skewness (Negative Skew):**
 In left-skewed distributions, the tail on the left side is longer, with most data points on the right. Here, the mean is often less than the median, and it occurs in data with low outliers, such as age at retirement.
  
 ### 6.**PAIRPLOT** 
@@ -172,16 +182,10 @@ The inclusion of attention mechanisms and feature importance analysis enabled re
 ### 5.**Efficient Semi-Supervised Learning:**
 By leveraging a combination of supervised loss on labeled data and unsupervised clustering loss, the model reduced dependency on extensive manual annotations. This significantly lowered the time and effort required for cytometry data analysis while maintaining high accuracy and reliability.
 
-##  References
+##  References and Links
 
-1. **Levine, J.H., et al.**  
-   *Data-Driven Phenotypic Dissection of AML*.  
-   [Read the Paper](https://www.sciencedirect.com/science/article/pii/S0092867415006376)
+1. **Levine, J.H., et al.**  : [Data-Driven Phenotypic Dissection of AML](https://www.sciencedirect.com/science/article/pii/S0092867415006376)
 
-2. **Kim, B., et al.**  
-   *VIME: Value Imputation and Mask Estimation*.  
-   [Read the Paper](https://arxiv.org/pdf/2006.05278)
+2. **Kim, B., et al.**  : [VIME: Value Imputation and Mask Estimation](https://arxiv.org/pdf/2006.05278)
 
-3. **Céline Hudelot, Myriam Tam**              
-   *Deep Semi-Supervised Learning*.  
-   [Read the Paper](https://arxiv.org/pdf/2006.05278)
+3. **Céline Hudelot, Myriam Tam**  :  [Deep Semi-Supervised Learning](https://arxiv.org/pdf/2006.05278)
