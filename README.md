@@ -32,7 +32,7 @@ CytoAutoCluster is an advanced deep learning framework designed for cytometry da
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
-
+---
 ## Usage
 ## 1. Preprocessing
   Run the **cytoAutoCluster_BeforeEncoder.ipynb** notebook for initial data cleaning and standardization.
@@ -43,30 +43,60 @@ CytoAutoCluster is an advanced deep learning framework designed for cytometry da
   Perform clustering on the dataset.
 
 ## 3. Launch Gradio Interface
-Execute the relevant cells in the **ENCODER_AND_GRADIO.ipynb** notebook to launch the Gradio interface for real-time data exploration and clustering visualization.
-
+   Execute the relevant cells in the **ENCODER_AND_GRADIO.ipynb** notebook to launch the Gradio interface for real-time data exploration and clustering visualization.
+  
+---
 ## Results
-## Key Metrics:
-    Adjusted Rand Index (ARI): **~0.85**
-      Indicates strong alignment with the ground truth labels.
-    Silhouette Score: **0.74**
-      Demonstrates well-separated and compact clusters.
-    Reconstruction Loss (MSE):
-      Low reconstruction loss confirms the autoencoder's effectiveness.
+**Key Metrics:**
+
+**Adjusted Rand Index (ARI): **~0.85****
+  
+  Indicates strong alignment with the ground truth labels.
+  
+**Silhouette Score: **0.74****
+  
+  Demonstrates well-separated and compact clusters.
+  
+**Reconstruction Loss (MSE):**
+
+  Low reconstruction loss confirms the autoencoder's effectiveness.
+  
+**Accuracy:0.932**
+  
 ## Visual Insights:
 ## PCA:
 2D and 3D plots reveal distinct clustering patterns.
 ## t-SNE:
 Highlights natural grouping tendencies in low-dimensional space.
 
-## Repository Structure
+---
+Repository Structure
+        ```plaintext
 
-main/
-├── Mohana/                        # Supporting folder for custom scripts or files
-├── CytoAutoClusterCode.docx       # Detailed documentation and project notes
-├── ENCODER_AND_GRADIO.ipynb       # Jupyter notebook combining encoder training and Gradio interface
-├── README.md                      # Project documentation (this file)
-├── cytoAutoCluster_BeforeEncoder.ipynb  # Notebook for initial data exploration and preprocessing
-├── LICENSE                        # Licensing information for the project Contribution
+            main/
+            ├── Mohana/                        # Supporting folder for custom scripts or files
+            ├── CytoAutoClusterCode.docx       # Detailed documentation and project notes
+            ├── ENCODER_AND_GRADIO.ipynb       # Jupyter notebook combining encoder training and Gradio interface
+            ├── README.md                      # Project documentation (this file)
+            ├── cytoAutoCluster_BeforeEncoder.ipynb  # Notebook for initial data exploration and preprocessing
+            ├── LICENSE                        # Licensing information for the project
 
+---
+**Contribution**
+
+We welcome contributions! Follow these steps:
+1. Fork the repository.
+2. Create a feature branch:
+    ```bash
+      git checkout -b feature-name
+3. Commit your changes and open a pull request.
+---
+**License**
+
+This project is licensed under the MIT License. See LICENSE for details.
+
+**Acknowledgments**
+
+Dataset: Levine32Dimensional dataset sourced from Kaggle.
+Frameworks and Libraries: TensorFlow, Scikit-learn, Gradio, Matplotlib, Pandas, NumPy.
 
