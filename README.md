@@ -1,21 +1,7 @@
 # CytoAutoCluster: A Semi-Supervised Deep Learning Framework for Cytometry Data Analysis
 
 ## Overview
-CytoAutoCluster is an advanced deep learning framework designed to tackle challenges in cytometry data analysis, including high dimensionality, missing labels, and noise. It leverages semi-supervised learning, dimensionality reduction, and clustering techniques with a focus on interactive data exploration using Gradio.
-
----
-
-## Repository Structure
-
-```plaintext
-main/
-├── Mohana/                        # Supporting folder for custom scripts or files
-├── CytoAutoClusterCode.docx       # Detailed documentation and project notes
-├── ENCODER_AND_GRADIO.ipynb       # Jupyter notebook combining encoder training and Gradio interface
-├── README.md                      # Project documentation (this file)
-├── cytoAutoCluster_BeforeEncoder.ipynb  # Notebook for initial data exploration and preprocessing
-├── LICENSE                        # Licensing information for the project
-
+CytoAutoCluster is an advanced deep learning framework designed for cytometry data analysis. It combines semi-supervised learning, autoencoder-based dimensionality reduction, and clustering techniques to overcome challenges like high dimensionality, noisy data, and missing labels. This project also provides an interactive Gradio-based user interface for visualizing and exploring clustering results.
 
 ---
 
@@ -42,11 +28,4 @@ main/
 1. Clone the repository:
    ```bash
    git clone https://github.com/<username>/CytoAutoCluster.git
-   cd CytoAutoClusterom/MOHANAL/CytoAutoCluster.git
    cd CytoAutoCluster
-2.Install required dependencies:
-  ```bash
-  pip install -r requirements.txt
-
-
-
