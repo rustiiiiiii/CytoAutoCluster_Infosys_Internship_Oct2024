@@ -51,7 +51,7 @@ Cytometry generates vast, high-dimensional datasets that pose significant challe
   leveraging robust machine learning techniques, including semi-supervised learning, to enhance both clustering accuracy and computational efficiency in the 
   analysis of cytometry data.
 
-  ## Project Objectives
+## Project Objectives
 
 - **Semi-Supervised Learning Framework**:  
   Utilize both labeled and unlabeled data to enhance clustering performance, ensuring robust and effective clustering.
@@ -129,11 +129,11 @@ Cytometry generates vast, high-dimensional datasets that pose significant challe
 
 ## How to Use
 1. Clone the repository:
-  ''' git clone https://github.com/rustiiiiiii/CytoAutoCluster_Infosys_Internship_Oct2024
+  '''git clone https://github.com/rustiiiiiii/CytoAutoCluster_Infosys_Internship_Oct2024'''
 2. Install Dependencies:
-  ''' pip install -r requirements.txt
+  '''pip install -r requirements.txt'''
 3. Run the Main Script:
-   ''' python main.py
+   '''python main.py'''
 
 ## Contact
 For any inquiries or collaboration opportunities:
