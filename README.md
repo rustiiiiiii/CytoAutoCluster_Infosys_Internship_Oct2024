@@ -127,19 +127,7 @@ Cytometry generates vast, high-dimensional datasets that pose significant challe
 - **Real-Time Analysis**: Develop tools for **live cytometry data clustering** and real-time processing.
 - **Application Integration**: Integrate CytoAutoCluster seamlessly into **biomedical platforms** for enhanced data analysis.
 
-## How to Use
-1. Clone the repository:
-  '''
-  git clone https://github.com/rustiiiiiii/CytoAutoCluster_Infosys_Internship_Oct2024
-  '''
-3. Install Dependencies:
-  '''
-  pip install -r requirements.txt
-  '''
-5. Run the Main Script:
-   '''
-   python main.py
-   '''
+
 
 ## Contact
 For any inquiries or collaboration opportunities:
