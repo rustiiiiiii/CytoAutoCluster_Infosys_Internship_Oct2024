@@ -1,4 +1,4 @@
-### CytoAutoCluster
+# CytoAutoCluster
 
 ## Project Overview
 CytoAutoCluster is an innovative solution designed to enhance the analysis of high-dimensional cytometry data by clustering cells based on unique, identifiable characteristics. Leveraging semi-supervised learning techniques, it integrates both labeled and unlabeled data to improve clustering accuracy and computational efficiency. This cutting-edge approach provides meaningful, actionable insights into complex cellular data, advancing research in the field of biomedical science.
@@ -129,11 +129,17 @@ Cytometry generates vast, high-dimensional datasets that pose significant challe
 
 ## How to Use
 1. Clone the repository:
-  '''git clone https://github.com/rustiiiiiii/CytoAutoCluster_Infosys_Internship_Oct2024'''
-2. Install Dependencies:
-  '''pip install -r requirements.txt'''
-3. Run the Main Script:
-   '''python main.py'''
+  '''bash
+  git clone https://github.com/rustiiiiiii/CytoAutoCluster_Infosys_Internship_Oct2024
+  '''
+3. Install Dependencies:
+  '''
+  pip install -r requirements.txt
+  '''
+5. Run the Main Script:
+   '''
+   python main.py
+   '''
 
 ## Contact
 For any inquiries or collaboration opportunities:
