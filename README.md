@@ -118,7 +118,7 @@ These challenges necessitate a novel approach combining efficiency, accuracy, an
 
 ##  Results
 
-- Achieved **higher clustering accuracy** by leveraging semi-supervised learning techniques.
+- Achieved **97 % accuracy** by leveraging semi-supervised learning techniques.
 - Reduced dependency on labeled datasets by utilizing consistency regularization and entropy minimization.
 - Demonstrated efficient handling of noisy, high-dimensional data with minimal preprocessing.
 - Provided intuitive and interpretable clustering visualizations.
