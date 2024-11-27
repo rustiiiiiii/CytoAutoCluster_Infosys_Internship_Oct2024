@@ -17,6 +17,7 @@ Why Choose CytoAutoCluster?
 4. Delivers clear and interpretable results and visualizations.
    
 Problem Overview
+
 Modern cytometry generates extensive, high-dimensional datasets that are challenging to analyze. Traditional clustering methods face limitations such as:
 1. Data Complexity: The high dimensionality of cytometry data complicates interpretation.
 2. Label Deficiency: Limited labeled data hinders supervised learning.
