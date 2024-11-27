@@ -106,7 +106,7 @@ These challenges call for a new approach—one that combines efficiency, accurac
 
 ## 📬 Contact  
 For any inquiries or collaboration opportunities, feel free to reach out:  
-- **Email**: aniruddh.joshi2904@gmail.com  
+- **Email**: divanshuvaish96@gmail.com  
 - **LinkedIn**: [Divanshu](https://www.linkedin.com/in/divanshu-658a18217/)  
 - **GitHub**: [Divanshu](https://github.com/Divanshu7)
 
