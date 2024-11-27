@@ -29,11 +29,12 @@ Repository Structure
 
             main/
             ├── Mohana/                        # Supporting folder for custom scripts or files
-            ├── CytoAutoClusterCode.pdf       # Detailed documentation and project notes
-            ├── README.md                      # Project documentation (this file)
+            ├── CytoAutoClusterCode.pdf        # Detailed documentation and project notes
+            ├── CytoAutoClusterCode.pptx       # Main points in slides arranged with demo link.
             ├──CytoAutoClusterCode/
                 ├── cytoAutoCluster_BeforeEncoder.ipynb  # Notebook for initial data exploration and preprocessing
                 ├── ENCODER_AND_GRADIO.ipynb       # Jupyter notebook combining encoder training and Gradio interface
+            ├── README.md                      # Project documentation (this file)
             ├── LICENSE                        # Licensing information for the project
 ---
 ## Installation
@@ -78,20 +79,20 @@ Repository Structure
    Indicates the model predictions are pretty well.
   
 ## Visual Insights:
-## PCA:
+**PCA:**
 
 2D and 3D plots reveal distinct clustering patterns.
 ![image](https://github.com/user-attachments/assets/26c2d17d-c7ae-4b86-a173-9b83494f1d0c)
 
-## t-SNE:
+**t-SNE:**
 Highlights natural grouping tendencies in low-dimensional space.
 <img width="510" alt="image" src="https://github.com/user-attachments/assets/840a6562-92fb-4a67-8352-189f1b6fe04a">
 
-After Encoder precictons
+**After Encoder predictions**:
+
+clustered pretty well
 
 <img width="461" alt="image" src="https://github.com/user-attachments/assets/6d45b128-6496-4f60-8f69-c2abbee3533f">
-
-
 
 ---
 **Contribution**
@@ -108,5 +109,5 @@ This project is licensed under the MIT License. See LICENSE for details.
 **Acknowledgments**
 
 Dataset: Levine32Dimensional dataset sourced from Kaggle.
-Frameworks and Libraries: TensorFlow, Scikit-learn, Gradio, Matplotlib, Pandas, NumPy.
+Frameworks and Libraries: TensorFlow, Scikit-learn, Gradio, Matplotlib, Pandas, NumPy,Google Colab.
 
