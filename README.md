@@ -66,17 +66,3 @@ Future Directions
 4. Integrate with biomedical platforms for seamless data processing.
 
 
-How to Use
-Clone the repository:
-
-git clone https://github.com/StutiDey123/CytoAutoCluster.git
-Navigate to the project directory:
-
-cd CytoAutoCluster
-Install dependencies:
-
-pip install -r requirements.txt
-Run the main script:
-
-python main.py
-Access visualizations and results in the output directory.
