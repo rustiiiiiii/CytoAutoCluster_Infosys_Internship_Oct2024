@@ -4,7 +4,7 @@
 
 ---
 
-### Contributed by: **Aniruddh Joshi**
+### Contributed by: **Akshaya V**
 
 ---
 
