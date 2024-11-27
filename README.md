@@ -27,7 +27,7 @@ CytoAutoCluster is an advanced deep learning framework designed for cytometry da
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<username>/CytoAutoCluster.git
+   git clone https://github.com/MOHANAL/CytoAutoCluster.git
    cd CytoAutoCluster
 2. Install dependencies:
    ```bash
@@ -75,10 +75,11 @@ Repository Structure
 
             main/
             ├── Mohana/                        # Supporting folder for custom scripts or files
-            ├── CytoAutoClusterCode.docx       # Detailed documentation and project notes
-            ├── ENCODER_AND_GRADIO.ipynb       # Jupyter notebook combining encoder training and Gradio interface
+            ├── CytoAutoClusterCode.pdf       # Detailed documentation and project notes
             ├── README.md                      # Project documentation (this file)
-            ├── cytoAutoCluster_BeforeEncoder.ipynb  # Notebook for initial data exploration and preprocessing
+            ├──CytoAutoClusterCode/
+                ├── cytoAutoCluster_BeforeEncoder.ipynb  # Notebook for initial data exploration and preprocessing
+                ├── ENCODER_AND_GRADIO.ipynb       # Jupyter notebook combining encoder training and Gradio interface
             ├── LICENSE                        # Licensing information for the project
 
 ---
@@ -86,9 +87,7 @@ Repository Structure
 
 We welcome contributions! Follow these steps:
 1. Fork the repository.
-2. Create a feature branch:
-    ```bash
-      git checkout -b feature-name
+2. Create a feature branch.
 3. Commit your changes and open a pull request.
 ---
 **License**
