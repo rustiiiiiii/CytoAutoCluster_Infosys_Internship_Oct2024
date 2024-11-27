@@ -19,52 +19,30 @@ main/
 
 ---
 
-## Key Features
-1. **Data Cleaning and Preprocessing**:
-   - Removal of irrelevant columns (e.g., `Time`, `Cell_length`).
-   - Imputation of missing feature values using column means.
-   - Normalization with `StandardScaler`.
-
-2. **Dimensionality Reduction**:
-   - **PCA**: Reduced data dimensions while retaining 95% variance.
-   - **t-SNE**: Generated 2D/3D visualizations for cluster analysis.
-
-3. **Self-Supervised Learning**:
-   - Trained an autoencoder to handle 30% masked data.
-   - Extracted robust latent features for clustering.
-
-4. **Clustering**:
-   - Algorithms: **k-Means** and **Hierarchical Clustering**.
-   - Evaluation Metrics: Adjusted Rand Index, Silhouette Score.
-
-5. **Gradio Interface**:
-   - Upload datasets and preprocess them interactively.
-   - Adjust clustering parameters (e.g., number of clusters, masking ratio).
-   - Visualize PCA and t-SNE clustering results in real-time.
-   - Monitor performance metrics and reconstruction loss.
+## Features
+- **Preprocessing**: Handles data cleaning, feature imputation, and normalization.
+- **Dimensionality Reduction**: Employs PCA and t-SNE for effective data visualization.
+- **Self-Supervised Learning**: Trains an autoencoder to handle incomplete data and extract robust latent features.
+- **Clustering**: Uses k-Means and Hierarchical Clustering with evaluation metrics like ARI and Silhouette Score.
+- **Gradio Interface**: Offers real-time interaction for visualizing clustering results and adjusting parameters.
 
 ---
 
 ## Dataset Information
-- **Dataset Name**: Levine32Dimensional
-- **Source**: Kaggle
-- **Properties**:
-  - **Rows**: 265,627 (cells)
-  - **Columns**: 32 markers (features)
-  - **Labeled Data**: 104,184 rows (39%)
-  - **Unlabeled Data**: 161,443 rows (61%)
-
-### Dataset Challenges
-- High dimensionality makes clustering computationally expensive.
-- A significant proportion (61%) of missing labels is ideal for semi-supervised learning approaches.
+- **Dataset**: Levine32Dimensional (sourced from Kaggle)
+- **Size**: 265,627 rows × 32 features
+- **Labels**: 39% labeled, 61% unlabeled
+- **Challenges**:
+  - High dimensionality of 32 features.
+  - Large proportion of missing labels.
 
 ---
 
 ## Installation
-
 1. Clone the repository:
    ```bash
-   git clone https://github.com/MOHANAL/CytoAutoCluster.git
+   git clone https://github.com/<username>/CytoAutoCluster.git
+   cd CytoAutoClusterom/MOHANAL/CytoAutoCluster.git
    cd CytoAutoCluster
 2.Install required dependencies:
   ```bash
