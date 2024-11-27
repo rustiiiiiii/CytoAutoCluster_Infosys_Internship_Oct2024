@@ -33,6 +33,14 @@ In the data-intensive realm of modern science, **CytoAutoCluster** emerges as a 
 - **Precision and Efficiency**: Designed for meaningful and rapid clustering, even in noisy datasets.
 
 ---
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Akshaya/CytoAutoCluster.git
+   cd CytoAutoCluster
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
 
 ##  Problem Overview
 
@@ -126,35 +134,6 @@ These challenges necessitate a novel approach combining efficiency, accuracy, an
 
 ---
 
-##  How to Use
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/AniruddhJoshi/CytoAutoCluster.git
-
-Here’s the content rewritten in proper `README.md` format:
-
-```markdown
-## 💻 How to Use
-
-1.Navigate to the project directory:
-   ```bash
-   cd CytoAutoCluster
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the main script:**
-   ```bash
-   python main.py
-   ```
-
-4. **Access visualizations and results** in the `output` directory.
-
----
 
 ## 📬 Contact
 
