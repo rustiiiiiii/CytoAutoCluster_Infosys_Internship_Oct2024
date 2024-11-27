@@ -1,7 +1,7 @@
 ### CytoAutoCluster
 
 ## Project Overview
-# CytoAutoCluster is an innovative solution designed to enhance the analysis of high-dimensional cytometry data by clustering cells based on unique, identifiable characteristics. Leveraging semi-supervised learning techniques, it integrates both labeled and unlabeled data to improve clustering accuracy and computational efficiency. This cutting-edge approach provides meaningful, actionable insights into complex cellular data, advancing research in the field of biomedical science.
+CytoAutoCluster is an innovative solution designed to enhance the analysis of high-dimensional cytometry data by clustering cells based on unique, identifiable characteristics. Leveraging semi-supervised learning techniques, it integrates both labeled and unlabeled data to improve clustering accuracy and computational efficiency. This cutting-edge approach provides meaningful, actionable insights into complex cellular data, advancing research in the field of biomedical science.
 
 ## Key Features
 - **Semi-Supervised Learning**:  
