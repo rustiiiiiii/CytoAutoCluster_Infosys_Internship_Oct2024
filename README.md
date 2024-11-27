@@ -16,14 +16,26 @@ CytoAutoCluster is an advanced deep learning framework designed for cytometry da
 
 ## Dataset Information
 - **Dataset**: Levine32Dimensional (sourced from Kaggle)
-- **Size**: 265,627 rows × 32 features
+- **Size**: 265,627 rows × 41 features
 - **Labels**: 39% labeled, 61% unlabeled
 - **Challenges**:
-  - High dimensionality of 32 features.
+  - High dimensionality of 32 Markers.
   - Large proportion of missing labels.
 
 ---
 
+Repository Structure
+        ```plaintext
+
+            main/
+            ├── Mohana/                        # Supporting folder for custom scripts or files
+            ├── CytoAutoClusterCode.pdf       # Detailed documentation and project notes
+            ├── README.md                      # Project documentation (this file)
+            ├──CytoAutoClusterCode/
+                ├── cytoAutoCluster_BeforeEncoder.ipynb  # Notebook for initial data exploration and preprocessing
+                ├── ENCODER_AND_GRADIO.ipynb       # Jupyter notebook combining encoder training and Gradio interface
+            ├── LICENSE                        # Licensing information for the project
+---
 ## Installation
 1. Clone the repository:
    ```bash
@@ -68,19 +80,6 @@ CytoAutoCluster is an advanced deep learning framework designed for cytometry da
 2D and 3D plots reveal distinct clustering patterns.
 ## t-SNE:
 Highlights natural grouping tendencies in low-dimensional space.
-
----
-Repository Structure
-        ```plaintext
-
-            main/
-            ├── Mohana/                        # Supporting folder for custom scripts or files
-            ├── CytoAutoClusterCode.pdf       # Detailed documentation and project notes
-            ├── README.md                      # Project documentation (this file)
-            ├──CytoAutoClusterCode/
-                ├── cytoAutoCluster_BeforeEncoder.ipynb  # Notebook for initial data exploration and preprocessing
-                ├── ENCODER_AND_GRADIO.ipynb       # Jupyter notebook combining encoder training and Gradio interface
-            ├── LICENSE                        # Licensing information for the project
 
 ---
 **Contribution**
