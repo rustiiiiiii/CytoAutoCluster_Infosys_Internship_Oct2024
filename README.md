@@ -29,3 +29,18 @@ CytoAutoCluster is an advanced deep learning framework designed for cytometry da
    ```bash
    git clone https://github.com/<username>/CytoAutoCluster.git
    cd CytoAutoCluster
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+## Usage
+# 1. Preprocessing
+  Run the **cytoAutoCluster_BeforeEncoder.ipynb** notebook for initial data cleaning and standardization.
+
+# 2. Train Autoencoder and Clustering Models
+  Use the **ENCODER_AND_GRADIO.ipynb** notebook to:
+  Train the autoencoder.
+  Perform clustering on the dataset.
+
+# 3. Launch Gradio Interface
+Execute the relevant cells in the **ENCODER_AND_GRADIO.ipynb** notebook to launch the Gradio interface for real-time data exploration and clustering visualization.
