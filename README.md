@@ -46,22 +46,22 @@ Repository Structure
    pip install -r requirements.txt
 ---
 ## Usage
-## 1. Preprocessing
+**1. Preprocessing**
   Run the **cytoAutoCluster_BeforeEncoder.ipynb** notebook for initial data cleaning and standardization.
 
-## 2. Train Autoencoder and Clustering Models
+**2. Train Autoencoder and Clustering Models**
   Use the **ENCODER_AND_GRADIO.ipynb** notebook to:
   Train the autoencoder.
   Perform clustering on the dataset.
 
-## 3. Launch Gradio Interface
+**3. Launch Gradio Interface**
    Execute the relevant cells in the **ENCODER_AND_GRADIO.ipynb** notebook to launch the Gradio interface for real-time data exploration and clustering visualization.
   
 ---
 ## Results
 **Key Metrics:**
 
-**Adjusted Rand Index (ARI): **~0.85****
+**AUROC: **~0.85****
   
   Indicates strong alignment with the ground truth labels.
   
@@ -74,12 +74,24 @@ Repository Structure
   Low reconstruction loss confirms the autoencoder's effectiveness.
   
 **Accuracy:0.932**
+
+   Indicates the model predictions are pretty well.
   
 ## Visual Insights:
 ## PCA:
+
 2D and 3D plots reveal distinct clustering patterns.
+![image](https://github.com/user-attachments/assets/26c2d17d-c7ae-4b86-a173-9b83494f1d0c)
+
 ## t-SNE:
 Highlights natural grouping tendencies in low-dimensional space.
+<img width="510" alt="image" src="https://github.com/user-attachments/assets/840a6562-92fb-4a67-8352-189f1b6fe04a">
+
+After Encoder precictons
+
+<img width="461" alt="image" src="https://github.com/user-attachments/assets/6d45b128-6496-4f60-8f69-c2abbee3533f">
+
+
 
 ---
 **Contribution**
