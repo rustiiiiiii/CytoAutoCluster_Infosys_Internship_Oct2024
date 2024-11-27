@@ -88,7 +88,7 @@ These challenges call for a new approach—one that combines efficiency, accurac
 ## 💻 How to Use  
 1. **Clone the repository**:  
     ```bash  
-    git clone https://github.com/AniruddhJoshi/CytoAutoCluster.git  
+    git clone https://github.com/rustiiiiiii/CytoAutoCluster_Infosys_Internship_Oct2024.git  
     ```  
 2. **Navigate to the project directory**:  
     ```bash  
