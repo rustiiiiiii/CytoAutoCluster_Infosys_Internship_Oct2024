@@ -9,7 +9,7 @@ CytoAutoCluster is an advanced deep learning framework designed for cytometry da
 - **Preprocessing**: Handles data cleaning, feature imputation, and normalization.
 - **Dimensionality Reduction**: Employs PCA and t-SNE for effective data visualization.
 - **Self-Supervised Learning**: Trains an autoencoder to handle incomplete data and extract robust latent features.
-- **Clustering**: Uses k-Means and Hierarchical Clustering with evaluation metrics like ARI and Silhouette Score.
+- **Clustering**: Uses k-Means and Hierarchical Clustering with evaluation metrics like AUROC,Accuracy.
 - **Gradio Interface**: Offers real-time interaction for visualizing clustering results and adjusting parameters.
 
 ---
@@ -21,6 +21,7 @@ CytoAutoCluster is an advanced deep learning framework designed for cytometry da
 - **Challenges**:
   - High dimensionality of 32 Markers.
   - Large proportion of missing labels.
+  - 14 clusters in label
 
 ---
 
