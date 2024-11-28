@@ -145,7 +145,7 @@ Cytometry generates vast, high-dimensional datasets that pose significant challe
 
 ## Contact
 For any inquiries or collaboration opportunities:
-- Email: [rsakashkumar@gmail.com](rsakashkumar@gmail.com)
+- Email: [rsakashkumar@gmail.com](mailto:rsakashkumar@gmail.com)
 - LinkedIn : [Akash](https://www.linkedin.com/in/akash-kumar-71667a224)
 - GitHub : [Akash](https://github.com/Akasha005)
 
