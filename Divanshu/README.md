@@ -116,7 +116,16 @@ For any inquiries or collaboration opportunities, feel free to reach out:
 
 ---
 ### 🔐 Recording:
-  [PLAY](https://drive.google.com/file/d/1pw3Mf88lYRvW13J8E8Nxx-MlDdiGOabw/view)          [DOWNLOAD](https://drive.google.com/uc?export=download&id=1pw3Mf88lYRvW13J8E8Nxx-MlDdiGOabw)
+ <div style="display: flex; gap: 10px; margin-top: 20px;">
+  <a href="https://drive.google.com/file/d/1pw3Mf88lYRvW13J8E8Nxx-MlDdiGOabw/view" target="_blank" 
+     style="text-decoration: none; padding: 10px 20px; background-color: #4CAF50; color: white; border-radius: 5px; font-weight: bold;">
+    Play
+  </a>
+  <a href="https://drive.google.com/uc?export=download&id=1pw3Mf88lYRvW13J8E8Nxx-MlDdiGOabw" target="_blank" 
+     style="text-decoration: none; padding: 10px 20px; background-color: #007BFF; color: white; border-radius: 5px; font-weight: bold;">
+    Download
+  </a>
+</div>
 
 ### 🔐 Terms of Use  
 **License**: This project is licensed under the [MIT License](https://github.com/rustiiiiiii/CytoAutoCluster_Infosys_Internship_Oct2024/blob/Divanshu/Divanshu/LICENCE), but unauthorized use, distribution, or modification of this code for commercial purposes is strictly prohibited without prior written consent.
