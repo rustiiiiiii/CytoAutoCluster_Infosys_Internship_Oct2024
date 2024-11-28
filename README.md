@@ -1,4 +1,4 @@
-# CytoAutoCluster
+# **CytoAutoCluster**
 
 ## Project Overview
 CytoAutoCluster is an innovative solution designed to enhance the analysis of high-dimensional cytometry data by clustering cells based on unique, identifiable characteristics. Leveraging semi-supervised learning techniques, it integrates both labeled and unlabeled data to improve clustering accuracy and computational efficiency. This cutting-edge approach provides meaningful, actionable insights into complex cellular data, advancing research in the field of biomedical science.
@@ -100,12 +100,12 @@ Cytometry generates vast, high-dimensional datasets that pose significant challe
 
 ## Technical Details
 
-### 📈 Key Techniques
+### Key Techniques
 - **Kurtosis & Skewness Analysis**: Used to assess the data distribution and identify outliers.
 - **Masking and Corruption**: Introduced noise into the data to make the model more robust and improve its generalization.
 - **Cluster Validation Metrics**: Employed metrics such as **Silhouette Score**, **Purity Score**, and **Adjusted Rand Index** for evaluating the quality of the clustering results.
 
-### 🛠️ Tools & Frameworks
+### Tools & Frameworks
 - **Python**: The core programming language used for development.
 - **Pandas & NumPy**: Essential for data manipulation and processing.
 - **Matplotlib & Seaborn**: Utilized for creating visualizations of data and clustering results.
@@ -127,7 +127,16 @@ Cytometry generates vast, high-dimensional datasets that pose significant challe
 - **Real-Time Analysis**: Develop tools for **live cytometry data clustering** and real-time processing.
 - **Application Integration**: Integrate CytoAutoCluster seamlessly into **biomedical platforms** for enhanced data analysis.
 
-
+## How to Use
+1. Clone the repository:
+  '''
+  git clone https://github.com/rustiiiiiii/CytoAutoCluster_Infosys_Internship_Oct2024
+3. Install Dependencies:
+  '''
+  pip install -r requirements.txt
+5. Run the Main Script:
+   '''
+   python main.py
 
 ## Contact
 For any inquiries or collaboration opportunities:
@@ -136,7 +145,9 @@ For any inquiries or collaboration opportunities:
 - GitHub : [Akash](https://github.com/Akasha005)
 
 ## References
-- Levine, J.H., et al. Data-Driven Phenotypic Dissection of AML.[Read the Paper](https://www.sciencedirect.com/science/article/pii/S0092867415006376)
-- Kim, B., et al. VIME: Value Imputation and Mask Estimation. [Read the Paper](https://arxiv.org/pdf/2006.05278)
+- Levine, J.H., et al.
+  Data-Driven Phenotypic Dissection of AML.[Read the Paper](https://www.sciencedirect.com/science/article/pii/S0092867415006376)
+- Kim, B., et al.
+  VIME: Value Imputation and Mask Estimation. [Read the Paper](https://arxiv.org/pdf/2006.05278)
 
   
