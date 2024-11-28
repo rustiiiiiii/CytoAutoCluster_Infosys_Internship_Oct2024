@@ -133,12 +133,12 @@ Cytometry generates vast, high-dimensional datasets that pose significant challe
    ```bash
    git clone https://github.com/rustiiiiiii/CytoAutoCluster_Infosys_Internship_Oct2024
    ```
-3. Install Dependencies:
+2. Install Dependencies:
   ```bash  
   pip install -r requirements.txt
   ```
   
-5. Run the Main Script:
+3. Run the Main Script:
    ```bash
    python main.py
    ```
