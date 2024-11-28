@@ -38,11 +38,6 @@ To run the code, ensure you have the following dependencies installed:
   - `tensorflow` or `pytorch` (as applicable)
   - `umap-learn`
 
-You can install the necessary packages using:
-
-```bash
-pip install -r requirements.txt
-```
 
 ---
 
