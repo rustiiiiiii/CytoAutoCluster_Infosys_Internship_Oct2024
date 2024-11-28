@@ -129,14 +129,16 @@ Cytometry generates vast, high-dimensional datasets that pose significant challe
 
 ## How to Use
 1. Clone the repository:
-  '''
+'''bash
   git clone https://github.com/rustiiiiiii/CytoAutoCluster_Infosys_Internship_Oct2024
 3. Install Dependencies:
-  '''
+    
   pip install -r requirements.txt
+  
 5. Run the Main Script:
-   '''
+   
    python main.py
+   
 
 ## Contact
 For any inquiries or collaboration opportunities:
