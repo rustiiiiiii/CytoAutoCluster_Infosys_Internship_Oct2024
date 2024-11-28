@@ -14,11 +14,11 @@ Clustering cytometry data faces several challenges:
 ---
 
 ## Features
--**Semi-Supervised Learning**: Combines labeled and unlabeled data for enhanced clustering accuracy.
--**Dimensionality Reduction**: Integrates PCA and t-SNE for intuitive visualizations and data clarity.
--**High Performance**: Processes large-scale, high-dimensional datasets efficiently.
--**Actionable Insights**: Generates clear and interpretable cluster outputs for better decision-making.
--**Scalability**: Designed to handle complex biomedical datasets.
+- **Semi-Supervised Learning**: Combines labeled and unlabeled data for enhanced clustering accuracy.
+- **Dimensionality Reduction**: Integrates PCA and t-SNE for intuitive visualizations and data clarity.
+- **High Performance**: Processes large-scale, high-dimensional datasets efficiently.
+- **Actionable Insights**: Generates clear and interpretable cluster outputs for better decision-making.
+- **Scalability**: Designed to handle complex biomedical datasets.
 
 ---
 
