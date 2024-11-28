@@ -128,18 +128,20 @@ Cytometry generates vast, high-dimensional datasets that pose significant challe
 - **Application Integration**: Integrate CytoAutoCluster seamlessly into **biomedical platforms** for enhanced data analysis.
 
 ## How to Use
+## How to Use
 1. Clone the repository:
-'''bash
-git clone https://github.com/rustiiiiiii/CytoAutoCluster_Infosys_Internship_Oct2024
-'''
+   ```bash
+   git clone https://github.com/rustiiiiiii/CytoAutoCluster_Infosys_Internship_Oct2024
+   ```
 3. Install Dependencies:
-    
+  ```bash  
   pip install -r requirements.txt
+  ```
   
 5. Run the Main Script:
-   
+   ```bash
    python main.py
-   
+   ```
 
 ## Contact
 For any inquiries or collaboration opportunities:
