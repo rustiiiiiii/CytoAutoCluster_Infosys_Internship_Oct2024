@@ -29,38 +29,38 @@ The primary goal of CytoAutoCluster is to:
 3. Generate intuitive visualizations for complex data.
 
 ---
-
 ## Key Components
 
-### Classification of Labeled and Unlabeled Data
-Combining labeled and unlabeled data balances guidance and discovery. Labeled data informs the model of class boundaries, while unlabeled data reveals broader patterns.
+### Classification of Labeled and Unlabeled Data  
+Combining **labeled** and **unlabeled data** ensures a balance between guidance and discovery. Labeled data provides clear class boundaries, while unlabeled data reveals broader patterns, enhancing the clustering model's robustness.
 
-### Logistic Regression
-A statistical model for binary or multi-class classification, logistic regression uses the sigmoid function and cross-entropy loss for efficient and interpretable predictions.
+### Logistic Regression  
+**Logistic Regression** is a simple yet powerful classification technique. It predicts binary or multi-class outcomes using the sigmoid function and cross-entropy loss, delivering interpretable results and serving as a baseline for comparison.
 
-### XGBoost
-XGBoost employs gradient boosting to build accurate and robust models. Its regularization capabilities and handling of missing values make it ideal for large-scale datasets.
+### XGBoost  
+**XGBoost** uses gradient boosting to construct accurate and robust models. Its ability to handle missing values, regularization features, and scalability make it ideal for large, complex datasets.
 
-### Logistic Regression and XGBoost Loss
-- **Logistic Regression Loss**: Binary cross-entropy minimizes prediction-label divergence.
-- **XGBoost Loss**: Gradient-boosted log loss optimizes iteratively for higher accuracy.
+### Logistic Regression and XGBoost Loss Functions  
+- **Logistic Regression Loss**: Uses binary cross-entropy to minimize the divergence between predictions and true labels.  
+- **XGBoost Loss**: Optimizes gradient-boosted log loss iteratively, refining predictions for improved accuracy.
 
-### Encoder Model
-Encoders compress data into latent representations, preserving meaningful features for downstream tasks like clustering or classification.
+### Encoder Model  
+Encoders compress high-dimensional data into compact latent representations, preserving meaningful features for downstream tasks such as clustering and classification.
 
-### Semi-Supervised Learning
-This paradigm uses limited labeled data alongside vast unlabeled data, employing techniques like pseudo-labeling and consistency regularization for efficient learning.
+### Semi-Supervised Learning  
+This project incorporates **semi-supervised learning** to utilize both labeled and unlabeled data efficiently. Techniques like **pseudo-labeling** and **consistency regularization** ensure robust learning, reducing the need for extensive labeled datasets.
 
-### Performance Metrics: Accuracy and AUROC
-- **Accuracy**: Measures overall prediction correctness but may mislead with imbalanced datasets.
-- **AUROC**: Assesses class distinction across thresholds, offering a robust performance metric.
+### Performance Metrics: Accuracy and AUROC  
+- **Accuracy**: Measures the overall correctness of predictions but can be misleading with imbalanced data.  
+- **AUROC (Area Under Receiver Operating Characteristic Curve)**: Evaluates the model's ability to distinguish between classes across various thresholds, providing a robust and balanced metric.
 
-### Dimensionality Reduction: PCA and t-SNE
-- **PCA**: Simplifies data by preserving variance in fewer dimensions.
-- **t-SNE After Encoder**: Visualizes clusters and patterns in encoded data by preserving local similarities.
+### Dimensionality Reduction: PCA and t-SNE  
+- **PCA (Principal Component Analysis)**: Reduces dimensionality while preserving the most significant variance in the data.  
+- **t-SNE After Encoder**: Creates visualizations by preserving local data relationships, revealing meaningful patterns and clusters.
 
-### Gradio Integration
-Gradio facilitates interactive model demonstrations with customizable web interfaces, enabling real-time input-output visualization.
+### Gradio Integration  
+**Gradio** provides an interactive, web-based interface for real-time model demonstration. Users can input custom data and observe outputs, making it easier to understand the model's functionality and performance.
+
 
 ---
 
