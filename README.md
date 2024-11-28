@@ -1,7 +1,7 @@
 # CytoAutoCluster: A Semi-Supervised Approach to Cell Classification
 
-## Introduction
-CytoAutoCluster focuses on clustering cells into distinct groups based on their features using semi-supervised learning. This purely computational approach aims to overcome challenges posed by unlabeled cytometry data and high-dimensional features by efficiently utilizing labeled data and sophisticated learning techniques.
+## Project Overview
+CytoAutoCluster is an innovative framework designed to improve cell population clustering in cytometry data. By leveraging semi-supervised learning, the project addresses key challenges in biomedical research, such as high-dimensional data, limited labels, and data variability, to deliver robust and interpretable clustering results.
 
 ---
 
@@ -13,25 +13,20 @@ Clustering cytometry data faces several challenges:
 
 ---
 
+## Features
+-**Semi-Supervised Learning**: Combines labeled and unlabeled data for enhanced clustering accuracy.
+-**Dimensionality Reduction**: Integrates PCA and t-SNE for intuitive visualizations and data clarity.
+-**High Performance**: Processes large-scale, high-dimensional datasets efficiently.
+-**Actionable Insights**: Generates clear and interpretable cluster outputs for better decision-making.
+-**Scalability**: Designed to handle complex biomedical datasets.
+
+---
+
 ## Objectives
 The primary goal of CytoAutoCluster is to:
-1. Learn meaningful features from a limited labeled dataset.
-2. Apply learned features to classify unlabeled data efficiently.
-3. Develop a computational system capable of scalable clustering.
-
----
-
-## Approach: Semi-Supervised Learning
-Semi-supervised learning leverages both labeled and unlabeled data:
-- **Labeled Data**: Guides the learning process with explicit groupings.
-- **Unlabeled Data**: Helps in discovering patterns and enhancing the model's generalizability.
-This balance enables robust feature learning and classification with limited labeled resources.
-
----
-
-## Dataset Selection
-- **Accepted Dataset**: *Levine CytOF 32 Dimensional Data* (60% unlabeled, feature-rich for semi-supervised learning).
-- **Rejected Dataset**: *CellCnn Learning Disease-Associated Cell Subsets* (focused on medical applications outside the project's scope).
+1. Implement a semi-supervised framework for effective clustering.
+2. Achieve high accuracy while minimizing reliance on labeled data.
+3. Generate intuitive visualizations for complex data.
 
 ---
 
@@ -87,17 +82,19 @@ Gradio facilitates interactive model demonstrations with customizable web interf
 
 ---
 
+## Results
+- Improved clustering accuracy using a semi-supervised approach.
+- Reduced dependency on annotated data, making it suitable for data-scarce domains.
+- Enhanced interpretability of noisy, high-dimensional cytometry datasets.
+- Delivered actionable insights via intuitive cluster visualizations.
+
+---
+
 ## Conclusion
-CytoAutoCluster demonstrates a computational approach to cell classification by leveraging semi-supervised learning. This project highlights the effective use of dimensionality reduction, advanced learning techniques, and interactive tools like Gradio for efficient and interpretable clustering.
+CytoAutoCluster bridges the gap between data scarcity and the need for accurate, scalable clustering in cytometry. By leveraging semi-supervised learning and dimensionality reduction, this framework empowers researchers to analyze high-dimensional data effectively, delivering actionable insights into cellular populations. With a focus on precision, interpretability, and scalability, CytoAutoCluster is a step forward in biomedical data analysis, paving the way for more robust and efficient clustering methodologies.
 
 ---
 
-## License
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-For more details, please refer to the [documentation](./Documentation).
 
 
 
