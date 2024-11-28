@@ -97,5 +97,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-For more details, please refer to the [documentation](./docs).
+For more details, please refer to the [documentation](./Documentation).
 
