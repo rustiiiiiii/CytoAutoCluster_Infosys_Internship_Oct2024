@@ -99,3 +99,12 @@ This project is licensed under the [MIT License](LICENSE).
 
 For more details, please refer to the [documentation](./Documentation).
 
+
+To include these references in your README.md file for your GitHub repository, you can format them like this:
+
+## References
+Levine, J.H., et al.
+Data-Driven Phenotypic Dissection of AML.
+
+Kim, B., et al.
+VIME: Value Imputation and Mask Estimation.
