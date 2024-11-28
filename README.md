@@ -84,9 +84,11 @@ This visualization demonstrates clustering of labeled and unlabeled data, highli
 
 ##  **Contact Detail**
 
-Name: Aniket Rahile
-Email: aniketrahile1@gmail.com
-GitHub: https://github.com/Ani-R3
+**Name : Aniket Rahile**\
+**Email**: aniketrahile1@gmail.com \
+**GitHub**:  https://github.com/Ani-R3 
+
+---
 
 ## **Acknowledgments**
 This project leverages concepts of self-supervised learning, dimensionality reduction, and visualization to bridge the gap between labeled and unlabeled datasets. Special thanks to [Gradio](https://gradio.app/) for providing a seamless interface library.
@@ -96,4 +98,3 @@ This project leverages concepts of self-supervised learning, dimensionality redu
 ## **License**
 This project is licensed under the MIT License. See the `LICENSE` file for more information.
 
----
