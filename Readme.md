@@ -122,6 +122,6 @@ For any inquiries or collaboration opportunities, feel free to reach out:
 
 
 ### 🔐 Terms of Use  
-**License**: This project is licensed under the [MIT License](https://github.com/rustiiiiiii/CytoAutoCluster_Infosys_Internship_Oct2024/blob/Divanshu/Divanshu/LICENCE), but unauthorized use, distribution, or modification of this code for commercial purposes is strictly prohibited without prior written consent.
+**License**: This project is licensed under the [MIT License](https://github.com/rustiiiiiii/CytoAutoCluster_Infosys_Internship_Oct2024/blob/Divanshu/LICENSE), but unauthorized use, distribution, or modification of this code for commercial purposes is strictly prohibited without prior written consent.
 
 This README structure is ready to be added to your repository to showcase the details of your project and to inform users about how to properly use and contribute to the project.
