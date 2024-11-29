@@ -111,8 +111,8 @@ For any inquiries or collaboration opportunities, feel free to reach out:
 - **GitHub**: [Divanshu](https://github.com/Divanshu7)
 
 ## 📜 References  
-- Levine, J.H., et al. *Data-Driven Phenotypic Dissection of AML.* [Read the Paper](https://doi.org/...)
-- Kim, B., et al. *VIME: Value Imputation and Mask Estimation.* [Read the Paper](https://doi.org/...)
+- Levine, J.H., et al. *Data-Driven Phenotypic Dissection of AML.* [Read the Paper](https://www.sciencedirect.com/science/article/pii/S0092867415006376)
+- Kim, B., et al. *VIME: Value Imputation and Mask Estimation.* [Read the Paper](https://arxiv.org/pdf/2006.05278)
 
 ---
 ### 🎞️ Recording:
