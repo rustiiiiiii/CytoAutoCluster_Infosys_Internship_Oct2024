@@ -12,6 +12,15 @@ CytoAutoCluster is an advanced deep learning framework designed for cytometry da
 - *Clustering*: Uses k-Means and Hierarchical Clustering with evaluation metrics like AUROC,Accuracy.
 - *Gradio Interface*: Offers real-time interaction for visualizing clustering results and adjusting parameters.
 
+## Dataset Information
+- **Dataset**: Levine32Dimensional (sourced from Kaggle)
+- **Size**: 265,627 rows × 41 features
+- **Labels**: 39% labeled, 61% unlabeled
+- **Challenges**:
+  - High dimensionality of 32 Markers.
+  - Large proportion of missing labels.
+  - 14 clusters in label
+
 ---
 *License*
 
