@@ -156,4 +156,14 @@ For queries or collaborations, please reach out via:
 ---
 
 ### CytoAutoCluster: Bridging the gap between data scarcity and efficient deep clustering. 🌟
-```
+---
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
+
+## Acknowledgments
+
+Special thanks to Infosys and mentors for their guidance during the internship. The dataset used, 'Levine 32 dim,' is a crucial resource for this research.
+
